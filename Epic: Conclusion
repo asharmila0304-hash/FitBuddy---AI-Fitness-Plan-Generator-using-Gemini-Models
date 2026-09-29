@@ -1,0 +1,9 @@
+Epic: Conclusion
+Text:
+FitBuddy AI is an AI-powered fitness plan generator that provides personalized workout and diet recommendations based on the user's fitness details and goals. By using Gemini AI, the system generates customized fitness plans quickly and efficiently. The project demonstrates how Generative AI can be used to create useful and personalized fitness solutions.
+Coding:
+# Final Fitness Plan
+fitness_plan = gemini_model.generate_content(prompt)
+
+print("Your Personalized Fitness Plan:")
+print(fitness_plan.text)
