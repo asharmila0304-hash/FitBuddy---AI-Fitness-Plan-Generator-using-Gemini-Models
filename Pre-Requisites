@@ -1,0 +1,17 @@
+Pre-Requisites
+Text:
+Python 3.10 or above
+Google Gemini API Key
+Streamlit
+Google Generative AI / Gemini SDK
+Basic knowledge of Python
+Internet connection
+VS Code or any Python IDE
+Coding:
+Python >= 3.10
+Streamlit
+Google Gemini API
+google-generativeai
+python-dotenv
+Internet Connection
+VS Code
