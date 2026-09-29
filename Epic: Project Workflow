@@ -1,0 +1,33 @@
+Epic: Project Workflow
+Text:
+The FitBuddy AI project follows a simple workflow. The user enters personal fitness details such as age, gender, height, weight, fitness goal, activity level, and dietary preferences. The application processes these inputs and sends them to the Gemini AI model. The AI generates a personalized fitness plan including workout and diet recommendations. The generated plan is then displayed to the user through the application interface.
+Coding / Workflow:
+User
+  ↓
+Enter Fitness Details
+  ↓
+Frontend Application
+  ↓
+Validate User Input
+  ↓
+Send Request to Backend
+  ↓
+Gemini AI Model
+  ↓
+Generate Personalized Fitness Plan
+  ↓
+Receive AI Response
+  ↓
+Display Workout & Diet Plan
+  ↓
+User Views the Fitness Plan
+Short coding flow:
+user_input = get_user_details()
+
+prompt = create_fitness_prompt(user_input)
+
+response = gemini_model.generate_content(prompt)
+
+fitness_plan = response.text
+
+display(fitness_plan)
